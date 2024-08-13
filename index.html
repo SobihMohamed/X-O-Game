@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="head"><span>X & O</span> Game</div>
+    <div class="head" id="score">
+        <h4>Player 1: <span id="score_player"> 0</span></h4>
+        <h4>Player 2: <span id="score_PC"> 0</span></h4>
+        <h4>player 1(X)</h4>
+
+    </div>
+    <div class="container">
+        <div class="game">
+
+            <div class="square" id="item1" onclick="Game(this.id)"></div>
+            <div class="square" id="item2" onclick="Game(this.id)"></div>
+            <div class="square" id="item3" onclick="Game(this.id)"></div>
+            
+            <div class="square" id="item4" onclick="Game(this.id)"></div>
+            <div class="square" id="item5" onclick="Game(this.id)"></div>
+            <div class="square" id="item6" onclick="Game(this.id)"></div>
+            
+            <div class="square" id="item7" onclick="Game(this.id)"></div>
+            <div class="square" id="item8" onclick="Game(this.id)"></div>
+            <div class="square" id="item9" onclick="Game(this.id)"></div>
+        
+        </div>
+    </div>
+    <button id="reset">Reset</button>
+</body>
+</html>
